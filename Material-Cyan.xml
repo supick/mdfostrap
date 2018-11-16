@@ -436,7 +436,7 @@ $(document).ready(function() {
             <div class='col s12 m6 l4 head-hidden'>
 
               <b:section class='' id='blog-title' maxwidgets='1' showaddelement='yes' title='My Favorite Things'>
-                <b:widget id='Header1' locked='true' title='MDFOSTRAP (Header)' type='Header' visible='true'>
+                <b:widget id='Header1' locked='true' title='Header' type='Header' visible='true'>
                   <b:includable id='main'>
                     <b:if cond='data:useImage'>
                       <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'> 
@@ -514,19 +514,18 @@ $(document).ready(function() {
         <nav class='cyan darken-1 hide-on-med-and-down first-top'>
           <div class='container'> 
               <ul class=''>
-                <li><a href=''>Home</a></li>
-                <li><a href=''>About</a></li>
-                <li><a href='http://mdfostrap.blogspot.co.id/p/contact.html' title='Contact'>Contact</a></li>
-                <li><a href=''>Disclaimer</a></li>
-                <li><a href=''>Privacy</a></li>
-                <li><a href=''>Terms</a></li>
-                <li class='active'><a href='http://www.fostrap.com/' title='Download'>Download</a></li>
+                <li class='active'><a href='/'>Home</a></li>
+                <li><a href='#'>About</a></li>
+                <li><a href='#' title='Contact'>Contact</a></li>
+                <li><a href='#'>Disclaimer</a></li>
+                <li><a href='#'>Privacy</a></li>
+                <li><a href='#'>Terms</a></li>
               </ul>
             <div class='nav-wrapper'>
               <ul class='right hide-on-med-and-down'>
-                <li class='active'><a href=''><i class='fa fa-facebook'/></a></li>
-                <li class='active'><a href=''><i class='fa fa-twitter'/></a></li>
-                <li class='active'><a href=''><i class='fa fa-google-plus'/></a></li>
+                <li class='active'><a href='#'><i class='fa fa-facebook'/></a></li>
+                <li class='active'><a href='#'><i class='fa fa-twitter'/></a></li>
+                <li class='active'><a href='#'><i class='fa fa-google-plus'/></a></li>
               </ul>
             </div>
           </div>
@@ -539,12 +538,12 @@ $(document).ready(function() {
           <b:if cond='data:blog.url == data:blog.homepageUrl'>
                         <div class='brand-logo logo-main waves-effect waves-light'>  
 						  <!-- logo -->
-                      	  <img alt='logo' class='img-logo-main' src='https://4.bp.blogspot.com/-Oep-lZOkvrA/Vwi85F3UXKI/AAAAAAAAB6E/riLe0St925ciu5BNO_7h27Nvqtt8e8Obw/s1600/mdfostrap%2Blogo.png' title='logo'/>
+                      	  <img alt='logo' class='img-logo-main' src='https://cdn.svgporn.com/logos/materializecss.svg' title='logo'/>
                           <h1><data:blog.title/></h1>
                         </div>
                       <b:else/>
                         <div class='brand-logo logo-main waves-effect waves-light'>  
-                      	  <img alt='logo' class='img-logo-main' src='https://4.bp.blogspot.com/-Oep-lZOkvrA/Vwi85F3UXKI/AAAAAAAAB6E/riLe0St925ciu5BNO_7h27Nvqtt8e8Obw/s1600/mdfostrap%2Blogo.png' title='logo'/>
+                      	  <img alt='logo' class='img-logo-main' src='https://cdn.svgporn.com/logos/materializecss.svg' title='logo'/>
                           <a class='' expr:href='data:blog.homepageUrl'>
                             <h1><data:blog.title/></h1>
                           </a>
@@ -588,14 +587,14 @@ $(document).ready(function() {
                     </li>
                   </ul> 
                   <ul class='right hide-on-med-and-down' id='menudesktop'>
-                    <li><a class='waves-effect waves-light' href='http://mdfostrap.blogspot.co.id/' title='Home'>Home</a></li> 
-                  <li><a class='waves-effect waves-light' href='http://mdfostrap.blogspot.co.id/search/label/Blogger' title='Blogger'>Blogger</a></li>  
+                    <li><a class='waves-effect waves-light' href='#' title='Home'>Home</a></li> 
+                  <li><a class='waves-effect waves-light' href='#' title='Blogger'>Blogger</a></li>  
                     <li><a class='waves-effect waves-light dropdown-button' data-activates='webdesign-dropdown' href='javascript:void(0)' title='Web Design'>Web Design<i class='mdi-navigation-arrow-drop-down right'/></a></li>
                     <ul class='dropdown-content' id='webdesign-dropdown'>
-                      <li><a class='cyan-text' href='http://mdfostrap.blogspot.co.id/search/label/html' title='HTML'>HTML</a></li>
-                      <li><a class='cyan-text' href='http://mdfostrap.blogspot.co.id/search/label/CSS' title='CSS'>CSS</a></li>
-                      <li><a class='cyan-text' href='http://mdfostrap.blogspot.co.id/search/label/Javascript' title='Javascript'>Javascript</a></li>
-                      <li><a class='cyan-text' href='http://mdfostrap.blogspot.co.id/search/label/JQuery' title='JQuery'>JQuery</a></li>
+                      <li><a class='cyan-text' href='#' title='HTML'>HTML</a></li>
+                      <li><a class='cyan-text' href='#' title='CSS'>CSS</a></li>
+                      <li><a class='cyan-text' href='#' title='Javascript'>Javascript</a></li>
+                      <li><a class='cyan-text' href='#' title='JQuery'>JQuery</a></li>
                     </ul>     
                     <li class='hide-on-med-and-down'><a class='waves-effect waves-cyan' href='javascript:void(0)' id='nav_searchbox_counter' title='search'><i class='mdi-action-search'/></a></li>
                   </ul>
