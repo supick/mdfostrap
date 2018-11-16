@@ -380,7 +380,8 @@ $(document).ready(function() {
    var filename = $img.attr('src')  
    $img.attr('title', filename.substring((filename.lastIndexOf('/'))+1, filename.lastIndexOf('.')));  
    $img.attr('alt', filename.substring((filename.lastIndexOf('/'))+1, filename.lastIndexOf('.')));  
-  });  
+  });
+  $(".post-outer").css("position","static"),$(".button-collapse").sideNav({menuWidth:300,edge:"left",closeOnClick:!0})
  });  
  //]]>  
  </script> 
@@ -533,13 +534,13 @@ $(document).ready(function() {
                         <div class='brand-logo logo-main waves-effect waves-light'>  
 						  <!-- logo -->
                       	  <img alt='logo' class='img-logo-main' src='https://cdn.svgporn.com/logos/materializecss.svg' title='logo'/>
-                          <h1><data:blog.title/></h1>
+                          <h1 class="hide-on-small-only"><data:blog.title/></h1>
                         </div>
                       <b:else/>
                         <div class='brand-logo logo-main waves-effect waves-light'>  
                       	  <img alt='logo' class='img-logo-main' src='https://cdn.svgporn.com/logos/materializecss.svg' title='logo'/>
                           <a class='' expr:href='data:blog.homepageUrl'>
-                            <h1><data:blog.title/></h1>
+                            <h1 class="hide-on-small-only"><data:blog.title/></h1>
                           </a>
                         </div>
                     </b:if>
@@ -2133,7 +2134,7 @@ $(document).ready(function() {
             <div class='container'>
             <div>
       <span class='hide-on-small-only'>
-            &#169; 2016 Copyright <a expr:href='data:blog.homepageUrl'> <data:blog.title/></a> Powered by <a href='http://blogger.com'>Blogger</a> 
+            &#169; <script type="text/javascript">document.write(new Date().getFullYear());</script> Copyright <a expr:href='data:blog.homepageUrl'> <data:blog.title/></a> Powered by <a href='https://blogger.com'>Blogger</a> 
               </span>
             <a class='grey-text text-lighten-4 right please-dont' href='http://facebook.com/wisnu.haha' id='please-dont' target='_blank'></a><span class='right' id='copyright-name'> Template Design by &#160;</span>
             </div>
